@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+
+
+        const dias = +prompt("Ingrese numero de dias?")
+
+
+        const años =  Math.floor(dias/365) ;
+        const semanas = parseInt((dias%365)/7);
+        const diass = parseInt((dias%365)-(semanas*7));
+
+        document.write(`
+
+        <ul>
+        <li>${años}     años</li>
+        <li>${semanas}   semanas</li>
+        <li>${diass}    dias</li>
+        </ul>
+
+        
+        `)
+
+
+
+
+
+    </script>
+</body>
+</html>

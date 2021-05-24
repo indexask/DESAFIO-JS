@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+
+    <script>
+        /* Se crean dos constantes con los respectivos valores que ingresa el usuario */
+        const numero1 = prompt("Ingrese primero numero")
+        const numero2 = prompt("Ingrese segundo numero")
+
+        /* Se crean cuatro operaciones las cuales son de suma, resta, division, multiplicacion */
+        const suma = (+numero1) + (+numero2)
+        const resta = (numero1) - (numero2)
+        const division = (numero1) / (numero2)
+        const multi = (numero1) * (numero2)
+
+
+        /* Se crea una lista desordenada en las cuales se muestran los resultados de las operaciones */
+        document.write(`
+        <ul>
+        <li>${suma}</li>
+        <li>${resta}</li>
+        <li>${division}</li>
+        <li>${multi}</li>
+        </ul>
+        
+        `)
+
+
+
+    </script>
+</body>
+</html>
